@@ -1,0 +1,23 @@
+body{
+  background-color: #373f51;
+}
+main {
+  background-color: green;
+}
+header{
+  background-color: #e43f6f;
+  /* border: 5px solid #FFFFFF; */
+  margin: 40px;
+  /* padding: 3vw; */
+  /* <!-- source adobe fonts--> */
+  font-family: articulat-heavy-cf;
+  font-size: 100px;
+  color: #dfbbb1
+}
+body{
+  font-family: input-mono,monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #988f2a
+
+}
