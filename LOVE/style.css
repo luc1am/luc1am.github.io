@@ -1,0 +1,113 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: [first]40px [line2]auto [line3]auto[line4]auto[five]40px[end];
+
+  grid-template-rows: 40px 25vw 25vw 40px;
+    gap: 10px;
+  font-family: "Courier New", monospace;
+  flex-wrap: wrap;
+
+  font-size: 20px;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=66478), auto;
+  /* grid-template-rows: [row1-start]40px [row1-end] auto[third-line]auto[forth-line]auto[fifth-line]40px[end]; */
+}
+.one {
+  grid-column: 1 / 6;
+  grid-row: 1;
+  background-color: #eb364e90;
+}
+.two {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  background-color: #AA005510;
+  padding: 10px;
+  text-align: center;
+  font-size: 100px;
+  display: flex;
+  /* align-self:center;  */
+
+}
+
+.trwoo {
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+  background-color: #AA005510;
+  padding: 10px;
+  text-align: center;
+  font-size: 100px;
+  display: flex;
+  /* align-self:center;  */
+
+}
+.two_0 {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  background-color: #AA005510;
+  padding: 10px;
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  /* align-self:center;  */
+
+}
+.three {
+  grid-column: 1;
+  grid-row: 1 / 5 ;
+  background-color: #eb364e90;
+  text-align:center;
+  padding-top: 50vw;
+}
+.four {
+  grid-column: 2 / 5 ;
+  grid-row: 3;
+  background-color: #5F829010;
+  padding: 10px;
+  text-align: center;
+  align-self: contain;
+  display: flex;
+
+}
+
+.five {
+  grid-column: 1/6;
+  grid-row: 4;
+  background-color: #eb364e90;
+}
+.six {
+  grid-column: 5;
+  grid-row: 1/5;
+  background-color: #eb364e90;
+  padding-top: 50vw;
+}
+.pic{
+  grid-column: 4;
+  grid-row: 2;
+  place-self: center;
+  align-self: stretch;
+  display: flex;
+
+  /* //background-color: #5F829010; */
+  padding: 10px;
+}
+
+.left {
+  grid-column: 2/3 ;
+  grid-row: 3;
+  background-color: #5F829010;
+
+}
+.other_pic{
+  grid-column: 4;
+  grid-row: 2/4;
+  background-color: #AA005510;
+  padding: 10px;
+  text-align: center;
+  align-self: stretch;
+  font-size: 20px;
+  display: flex;
+}
+
+
+.lovecursor{
+  cursor: url(https://upload.wikimedia.org/wikipedia/commons/4/42/Love_Heart_SVG.svg), auto;
+}
