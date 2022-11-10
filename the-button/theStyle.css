@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+    font-size: 80px;
+}
+
+button {
+    padding: 1vw;
+    border-radius: 10px;
+    position: absolute;
+    font-family: interstate-mono;
+
+}
+
+h5 {
+    background-color: white;
+    font-family: interstate-mono,  monospace;
+}
