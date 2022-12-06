@@ -46,7 +46,7 @@ var buttOffset = offset(theButton);
 console.log(buttOffset.left, buttOffset.top);
 
 
-//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+//https://developer.m ozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
@@ -102,6 +102,8 @@ function beTheChange(){
     theButton.style.top = buttonPosX;
     theButton.style.left = buttonPosY;
     buttOffset = offset(theButton);
+    isClicked = false;
+
   }
 
 }
