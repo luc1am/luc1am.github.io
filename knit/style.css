@@ -5,6 +5,7 @@ body{
   font-family: ocr-b-std,monospace;
   font-weight: 400;
   font-style: normal;
+  margin: 0px;
 
 }
 
@@ -44,7 +45,8 @@ header{
   color: #00FF00;
   padding: 0px;
   margin: 0px;
-  top: 25vw
+  top: 25vw;
+
 }
 .row1{
   grid-row:1;
@@ -79,8 +81,7 @@ header{
   align-items: stretch;
   width:90vw;
   padding: 20px;
-
-
+  
 }
 
 .title{
@@ -119,6 +120,10 @@ p{
   right: -10px;
   top: -30px;
 }
+
+#knit2{
+  margin: 40px;
+}
 svg{
   fill: #b0d94a;
   width: 100px;
@@ -126,3 +131,22 @@ svg{
 svg:hover{
   fill:#ffffdd;
 }
+
+.text{
+  position: absolute;
+  mix-blend-mode: color;
+  width: 100vw;
+  left: 10px;
+  /* animation-name: move;
+  animation-duration: 10s;
+  animation-direction: alternate; */
+}
+
+#test{
+  position:fixed;
+  left: 100px;
+}
+/* @keyframes move{
+  0% {left: -100vw;}
+  100% {left: 100vw;}
+} */

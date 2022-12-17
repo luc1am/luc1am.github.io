@@ -1,0 +1,144 @@
+body{
+  background-image: url("bg.svg");
+  background-color: #104022;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main {
+  background-color: green;
+}
+
+
+.fl1{
+  width: 5vw;
+  position: absolute;
+  top: 90%;
+  left: 40%;
+}
+
+.fl1:hover{
+  width: 5vw;
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  transform-origin: bottom right;
+  animation: rotation 1s alternate infinite ease-out;
+}
+
+
+.fl2{
+  width: 5vw;
+  position: absolute;
+  top: 40%;
+  left: 85%;
+}
+
+.fl2:hover{
+  width: 5vw;
+  position: absolute;
+  top: 40%;
+  left: 85%;
+  transform-origin: bottom right;
+  animation: rotation 1s alternate infinite ease-out;
+}
+.fl3{
+  width: 5vw;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+}
+.fl3:hover{
+  width: 5vw;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform-origin: bottom right;
+  animation: rotation 1s alternate infinite ease-out;
+}
+
+.fl4{
+  width: 5vw;
+  position: absolute;
+  top: 43%;
+  left: 16%;
+}
+.fl4:hover{
+  width: 5vw;
+  position: absolute;
+  top: 43%;
+  left: 16%;
+  transform-origin: bottom right;
+  animation: rotation 1s alternate infinite ease-out;
+}
+
+.fl5{
+  width: 5vw;
+  position: absolute;
+  top: 70%;
+  left: 60%;
+}
+
+.fl5:hover{
+  width: 5vw;
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  transform-origin: bottom right;
+  animation: rotation 1s alternate infinite ease-out;
+}
+/* https://linuxhint.com/rotate-animation-css/ */
+
+.boy{
+  width: 25vw;
+  position: absolute;
+  top:50%;
+  left: 17%;
+}
+.girl{
+  width:25vw;
+  position: absolute;
+  top: 40%;
+  left: 58%;
+}
+
+.cloud1{
+  position:absolute;
+  width: 40vw;
+  animation: diagonal-anim 16.5s linear infinite normal;
+}
+
+.cloud2{
+  position:absolute;
+  width: 40vw;
+  animation: diagonal-anim 15s linear 4s infinite normal;
+  /* animation-name: diagonal-animation;
+  animation-timing-function:ease-in-out;
+  animation-delay: 3s; */
+}
+
+.text{
+  position: absolute;
+  font-family: oblong,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-kerning: auto;
+  color: #d4cfd4;
+  font-size: 30px;
+  padding-left: 20px;
+}
+@keyframes diagonal-anim{
+  0%{
+    transform: translate(-30vw,10vw);
+  }
+  100%{
+    transform: translate(100vw,-10vw);
+  }
+}
+
+@keyframes rotation{
+  from {
+    transform: rotate(0deg);
+  } to {
+    transform: rotate(12deg);
+  }
+}

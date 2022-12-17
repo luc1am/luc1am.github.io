@@ -73,6 +73,7 @@ body{
   padding: 10px;
   grid-column:1/4;
   grid-row: 1;
+  color: #ccc;
   background-color: #f4f4f4;
   border: 1px solid #dddddd;
   border-left: 0px;
@@ -89,4 +90,25 @@ table {
 }
 tbody{
   display: table-row-group;
+}
+#sun{
+  background:#f4f4f4;
+  font-weight: 100;
+}
+.ccc{
+  padding: 2px;
+  font-size: 16px;
+  grid-row: 1;
+  /* color: #ccc; */
+  background-color: #f4f4f4;
+  border: 1px solid #dddddd;
+  border-left: 0px;
+  border-right: 0px;
+}
+#com{
+  grid-column: 1;
+}
+
+a:link{
+  text-decoration: none;
 }

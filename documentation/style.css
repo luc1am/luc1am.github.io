@@ -1,0 +1,23 @@
+body{
+    margin: 10em;
+ 
+    background-color: #211d12;
+    color: #889768;
+}
+h1{
+    font-family: roc-grotesk;
+}
+.t{
+    font-family: alda,serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    color: #ccbeb8;
+}
+a{
+    color: inherit;
+}
+
+img{
+    width: 70vw;
+}

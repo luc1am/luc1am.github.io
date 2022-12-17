@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+}
+
+main {
+    background-image: url(computer.jpg);
+    background-size: cover;
+    padding: 4vw;
+    margin: 50px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 80vw;
+
+}
+
+p {
+
+    position: relative;
+}
+
+#colorSelect {
+    font-weight:bold;
+    font-size: 10vw;
+}
+
+#sold{
+    position: absolute;
+    left: 50vw;
+    top: 10vw;
+    width: 25vw;
+}
+
+#cigs{
+    position:absolute;
+    left: 5vw;
+    width: 20vw;
+    top: 70vh
+}
+#ore{
+    position:absolute;
+    left: 80vw;
+    width: 20vw;
+    top: 40vh
+}
+#jar{
+    position:absolute;
+    left: 10vw;
+    width: 30vw;
+    top: 90vh
+}
+#g{
+    position:absolute;
+    left: 70vw;
+    width: 40vw;
+    top: 90vh
+}
